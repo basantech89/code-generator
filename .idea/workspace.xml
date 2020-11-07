@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0be6dc30-a65e-4ab6-b390-2680ff635018" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jxVCmLf32bqHiBKIKQ1kehtDxE" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.eslintrc.json" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="$USER_HOME$/.nvm/versions/node/v12.18.3/bin/node" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="prettierjs.PrettierConfiguration.NodeInterpreter" value="$USER_HOME$/.nvm/versions/node/v12.18.3/bin/node" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$USER_HOME$/.nvm/versions/node/v12.18.3/lib/node_modules/prettier" />
+    <property name="run.prettier.on.save" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0be6dc30-a65e-4ab6-b390-2680ff635018" name="Default Changelist" comment="" />
+      <created>1604745606851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604745606851</updated>
+      <workItem from="1604745607879" duration="878000" />
+      <workItem from="1604746667589" duration="4539000" />
+      <workItem from="1604751932689" duration="2543000" />
+      <workItem from="1604754488227" duration="39000" />
+      <workItem from="1604754762896" duration="531000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="646" y="358" width="618" height="319" key="#Prettier" timestamp="1604752665219">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="646" y="358" width="618" height="319" key="#Prettier/0.0.1920.1080@0.0.1920.1080" timestamp="1604752665219" />
+    <state x="728" y="133" width="430" height="482" key="FileChooserDialogImpl" timestamp="1604754777193">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="728" y="133" width="430" height="482" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1604754777193" />
+    <state x="434" y="11" key="SettingsEditor" timestamp="1604754787633">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="434" y="11" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1604754787633" />
+    <state x="622" y="250" key="run.anything.popup" timestamp="1604747653356">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="622" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604747653356" />
+    <state x="623" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1604753552818">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="623" y="249" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604753552818" />
+  </component>
+</project>
