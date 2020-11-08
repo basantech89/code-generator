@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -11,14 +14,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0be6dc30-a65e-4ab6-b390-2680ff635018" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/__snapshots__/App.test.tsx.snap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorBoundary/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/style.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Loader/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/NotFound/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/App/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/App/Routes.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/App/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Demo/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/Home/index.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/state/common/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/state/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/common.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,9 +136,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="622" y="250" key="run.anything.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604747653356" />
-    <state x="623" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1604764111569">
+    <state x="623" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1604840408779">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="623" y="249" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604764111569" />
+    <state x="623" y="249" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1604840408779" />
   </component>
 </project>
