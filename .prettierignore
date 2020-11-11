@@ -5,3 +5,4 @@ node_modules/
 .github/
 *.min.js
 *.test.tsx.snap
+src/assets/

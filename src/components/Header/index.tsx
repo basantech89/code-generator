@@ -1,19 +1,30 @@
 import * as React from 'react'
-import { AppBar, Toolbar } from '@material-ui/core'
+import { AppBar, Button, Toolbar } from '@material-ui/core'
 import { useAppHeaderStyles } from './style'
 import { Link } from '@reach/router'
+import LightThemeIcon from '../../assets/icons/lightThemeIcon'
+import DarkThemeIcon from '../../assets/icons/darkThemeIcon'
 
-const AppHeader = () => {
+declare interface IAppHeaderProps {
+	onChangeThemeMode: () => void
+}
+
+const AppHeader = (props: IAppHeaderProps) => {
 	const classes = useAppHeaderStyles()
 
 	return (
 		<AppBar position={'static'} elevation={0}>
 			<Toolbar className={classes.toolbar}>
-				<div style={{ display: 'flex', alignItems: 'center' }}>
-					<Link to='/' className={classes.title}>
-						Code Generator
-					</Link>
-				</div>
+				<Link to='/' className={classes.title}>
+					Code Generator
+				</Link>
+				<Button
+					className={classes.themeToggleButton}
+					onClick={props.onChangeThemeMode}
+				>
+					<LightThemeIcon />
+					<DarkThemeIcon />
+				</Button>
 			</Toolbar>
 		</AppBar>
 	)
