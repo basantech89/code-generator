@@ -1,14 +1,19 @@
-import { createSlice } from '@reduxjs/toolkit'
+import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
-const initialState = { isLoading: false, message: '' }
+type SliceState = {
+	isLoading: boolean
+	message: string
+}
+
+const initialState: SliceState = { isLoading: false, message: '' }
 
 const commonSlice = createSlice({
 	name: 'common',
 	initialState,
 	reducers: {
-		showLoader: (state, action?) => {
+		showLoader: (state, action: PayloadAction<string>) => {
 			state.isLoading = true
-			state.message = action?.payload?.message || ''
+			state.message = action.payload || ''
 		},
 		hideLoader: (state) => {
 			state.isLoading = false

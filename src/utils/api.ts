@@ -1,4 +1,10 @@
 import axios from 'axios'
+import store from '../store'
+import { showLoader, hideLoader } from '../store/state/common'
+
+declare interface IMetaConfig {
+	loadingMessage?: string
+}
 
 const constructUrl = (url: string) => {
 	if (process.env.REACT_APP_API_BASE) {
@@ -7,11 +13,17 @@ const constructUrl = (url: string) => {
 	return url
 }
 
-export const get = async <K>(url: string, headers?: object) => {
+export const get = async <K>(
+	url: string,
+	headers?: object,
+	metaConfig: IMetaConfig = { loadingMessage: '' }
+) => {
 	try {
+		store.dispatch(showLoader(metaConfig.loadingMessage || ''))
 		const { data } = await axios.get(constructUrl(url), {
 			headers: headers
 		})
+		store.dispatch(hideLoader())
 		return data as K
 	} catch (e) {
 		// global error handling
@@ -34,7 +46,7 @@ export const post = async <K>(
 	}
 }
 
-export const deleteRequest = async <K>(url: string, headers?: object) => {
+export const remove = async <K>(url: string, headers?: object) => {
 	try {
 		const { data } = await axios.delete(constructUrl(url), {
 			headers: headers
