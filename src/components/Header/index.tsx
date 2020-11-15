@@ -6,7 +6,7 @@ import LightThemeIcon from '../../assets/icons/lightThemeIcon'
 import DarkThemeIcon from '../../assets/icons/darkThemeIcon'
 
 declare interface IAppHeaderProps {
-	onChangeThemeMode: () => void
+	onToggleThemeMode: () => void
 }
 
 const AppHeader = (props: IAppHeaderProps) => {
@@ -20,7 +20,7 @@ const AppHeader = (props: IAppHeaderProps) => {
 				</Link>
 				<Button
 					className={classes.themeToggleButton}
-					onClick={props.onChangeThemeMode}
+					onClick={props.onToggleThemeMode}
 				>
 					<LightThemeIcon />
 					<DarkThemeIcon />
