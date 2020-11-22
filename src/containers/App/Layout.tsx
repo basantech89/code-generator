@@ -2,7 +2,7 @@ import React from 'react'
 import { Container } from '@material-ui/core'
 // import Footer from 'src/components/Footer'
 import Header from '../../components/Header'
-import { useLocalStorageState } from '../../utils/common'
+import { useLocalStorageState } from '../../utils/useLocalStorageState'
 import { ThemeProvider } from '@material-ui/core/styles'
 import themes from '../../themes'
 
@@ -11,6 +11,7 @@ const Layout: React.FC = (props) => {
 		'isLightTheme',
 		false
 	)
+	const theme = isLightTheme ? themes.light : themes.dark
 
 	const toggleThemeMode = () => {
 		setThemeMode(!isLightTheme)
@@ -18,7 +19,7 @@ const Layout: React.FC = (props) => {
 
 	return (
 		<>
-			<ThemeProvider theme={isLightTheme ? themes.light : themes.dark}>
+			<ThemeProvider theme={theme}>
 				<Header onToggleThemeMode={toggleThemeMode} />
 				<Container>{props.children as React.ReactChild}</Container>
 				{/*<Footer />*/}

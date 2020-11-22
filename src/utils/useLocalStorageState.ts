@@ -28,7 +28,3 @@ export function useLocalStorageState(
 
 	return [state, setState]
 }
-
-export const getAuthToken = () => localStorage.getItem('AUTH_TOKEN')
-export const setAuthToken = (token: string) =>
-	localStorage.setItem('AUTH_TOKEN', token)
