@@ -1,20 +1,33 @@
-import { createMuiTheme } from '@material-ui/core'
-import { IThemeOptions } from './types'
 import colors from './colors'
+import commonThemeOptions from './common'
 
 const extended = {
 	Header: {
-		background: `linear-gradient(to top, ${colors.white.medium} 0%, ${colors.white.light} 100%)`,
-		border: `1px solid ${colors.blue.light}`
+		background: `linear-gradient(${colors.blue.dark}, ${colors.blue.medium})`,
+		border: `1px solid ${colors.white.main}`
 	}
 }
 
-const theme = createMuiTheme({
+const darkThemeOptions = {
 	name: 'dark',
 	palette: {
-		type: 'dark'
+		type: 'dark',
+		common: colors.common,
+		primary: {
+			dark: '#072740',
+			main: '#364f6b',
+			light: '#637b99',
+			contrastText: '#fff'
+		},
+		secondary: {
+			dark: '#009098',
+			main: '#3fc1c9',
+			light: '#7af4fc',
+			contrastText: '#000'
+		}
 	},
+	...commonThemeOptions,
 	cfg: extended
-} as IThemeOptions)
+}
 
-export default theme
+export default darkThemeOptions

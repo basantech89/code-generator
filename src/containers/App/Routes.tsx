@@ -1,5 +1,6 @@
+import { RouteComponentProps, Router } from '@reach/router'
 import React, { lazy, Suspense } from 'react'
-import { Router, RouteComponentProps } from '@reach/router'
+
 import Loader from '../../components/Loader'
 
 type Props = { component: React.FC } & RouteComponentProps

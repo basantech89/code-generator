@@ -1,9 +1,10 @@
-import * as React from 'react'
 import { AppBar, Button, Toolbar } from '@material-ui/core'
-import { useAppHeaderStyles } from './style'
 import { Link } from '@reach/router'
-import LightThemeIcon from '../../assets/icons/lightThemeIcon'
+import * as React from 'react'
+
 import DarkThemeIcon from '../../assets/icons/darkThemeIcon'
+import LightThemeIcon from '../../assets/icons/lightThemeIcon'
+import { useAppHeaderStyles } from './style'
 
 declare interface IAppHeaderProps {
 	onToggleThemeMode: () => void
@@ -22,8 +23,8 @@ const AppHeader = (props: IAppHeaderProps) => {
 					className={classes.themeToggleButton}
 					onClick={props.onToggleThemeMode}
 				>
-					<LightThemeIcon />
 					<DarkThemeIcon />
+					<LightThemeIcon />
 				</Button>
 			</Toolbar>
 		</AppBar>

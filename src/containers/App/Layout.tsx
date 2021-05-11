@@ -1,17 +1,22 @@
-import React from 'react'
-import { Container } from '@material-ui/core'
-// import Footer from 'src/components/Footer'
-import Header from '../../components/Header'
-import { useLocalStorageState } from '../../utils/useLocalStorageState'
+import { Container, createMuiTheme } from '@material-ui/core'
+import CssBaseline from '@material-ui/core/CssBaseline'
 import { ThemeProvider } from '@material-ui/core/styles'
-import themes from '../../themes'
+import React from 'react'
+
+import Header from '../../components/Header'
+import darkThemeOptions from '../../themes/dark'
+import lightThemeOptions from '../../themes/light'
+import { IThemeOptions } from '../../themes/types'
+import { useLocalStorageState } from '../../utils/useLocalStorageState'
 
 const Layout: React.FC = (props) => {
 	const [isLightTheme, setThemeMode] = useLocalStorageState(
 		'isLightTheme',
 		false
 	)
-	const theme = isLightTheme ? themes.light : themes.dark
+
+	const themeOptions = isLightTheme ? lightThemeOptions : darkThemeOptions
+	const theme = createMuiTheme(themeOptions as IThemeOptions)
 
 	const toggleThemeMode = () => {
 		setThemeMode(!isLightTheme)
@@ -20,6 +25,7 @@ const Layout: React.FC = (props) => {
 	return (
 		<>
 			<ThemeProvider theme={theme}>
+				<CssBaseline />
 				<Header onToggleThemeMode={toggleThemeMode} />
 				<Container>{props.children as React.ReactChild}</Container>
 				{/*<Footer />*/}
